@@ -1,0 +1,21 @@
+#message-list {
+    position: absolute;
+    top: 3em;
+    left: 1em;
+    right: 0em;
+    bottom: 3em;
+    overflow: auto;
+}
+#message-box {
+    position: absolute;
+    bottom: 1em;
+    width: 95%;
+}
+#message {
+    width: 80%;
+    margin-left: 5px;
+}
+#btn-send {
+    width: 15%;
+    margin-left: 5px;
+}
