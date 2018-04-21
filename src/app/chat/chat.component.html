@@ -1,0 +1,10 @@
+<div>
+  Chat
+  <div id="message-list" #messageList>
+    <div *ngFor="let message of messages">{{message.content}}</div>
+  </div>
+  <div id="message-box">
+    <input id="message" #messageInput type="text" value="{{input}}" (change)="handleMessageInputChange($event)" (keyup.enter)="handleSendMessage($event)"/>
+    <button id="btn-send" (click)="handleSendMessage($event)">Send</button>
+  </div>
+</div>
